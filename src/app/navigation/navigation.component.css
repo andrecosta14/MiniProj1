@@ -1,0 +1,27 @@
+body {margin:0}
+
+.iconBar {
+  width: 50px;
+  background-color: rgba(1, 1, 59, 0.2);
+  top: 12rem;
+  left: 1rem;
+  border-radius: 5%;
+  position: fixed;
+}
+
+.iconBar a {
+  display: block;
+  text-align: center;
+  padding: 5px;
+  transition: all 0.5s ease;
+  color: white;
+  font-size: 25px;
+}
+
+.iconBar a:hover {
+  background-color: #bb9602;
+}
+
+.active {
+  background-color: #008c62;
+}

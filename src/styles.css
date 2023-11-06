@@ -1,0 +1,177 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600&display=swap');
+*{
+  margin:0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+:root {
+  --color-bg: #01013b;
+  --color-bg-variant: rgba(18, 2, 117, 0.4);
+  --color-primary: rgba(122, 123, 231, 0.4);
+  --color-primary-variant: rgba(175, 169, 133, 0.73);
+  --color-primary-secondvariant: rgba(55, 73, 50, 0.73);
+  --color-white: #fff;
+  --color-light: rgba(255,255,255, 0.6);
+
+  --container-width-lg: 75%;
+  --container-width-md: 86%;
+  --container-with-sm:90%;
+
+  --transition: all 400ms ease;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: 'Roboto Light', sans-serif;
+  background: var(--color-bg);
+  color: var(--color-white);
+  line-height: 1.7;
+}
+
+.title_content {
+  width: 1130px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 100px;
+  padding: 1rem;
+  background: var(--color-bg-variant);
+}
+
+.title_content img {
+  margin-top: 50px;
+  height: 35%;
+  width: 35%;
+  border-radius: 5%;
+}
+
+.title h1{
+  font-size: 50px;
+  margin-bottom: 1rem;
+}
+
+.title h2 {
+  margin-bottom: 50px;
+}
+
+.topics {
+  width: 1130px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.topics img {
+  height: 35%;
+  width: 35%;
+  border-radius: 5%;
+}
+
+.about_me {
+  margin-left: 50px;
+  padding: 2rem;
+  background: var(--color-primary);
+  border-radius: 5%;
+}
+
+.about_me h1{
+  font-size: 35px;
+  text-decoration: underline;
+  text-underline-position: under;
+  margin-bottom: 30px;
+}
+
+.about_me p{
+  margin: 1rem 0;
+  text-align: justify;
+}
+
+.my_work {
+  padding: 2rem;
+  background: var(--color-primary-variant);
+  margin-top: 100px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+}
+
+.my_work h1 {
+  font-size: 35px;
+  text-align: center;
+  text-decoration: underline;
+  text-underline-position: under;
+  margin-bottom: 30px;
+}
+
+.my_work p{
+  margin: 1rem 0;
+  text-align: justify;
+}
+
+.work_topics {
+  display: flex;
+  margin: 1.5rem 0;
+  padding-left: 30%;
+  gap: 3rem;
+}
+
+.hobbies {
+  padding: 2rem;
+  background: var(--color-primary-secondvariant);
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+}
+
+.hobbies h1 {
+  font-size: 35px;
+  text-align: center;
+  text-decoration: underline;
+  text-underline-position: under;
+  margin-bottom: 30px;
+}
+
+.hobbies p{
+  margin: 1.5rem 0;
+  text-align: justify;
+}
+
+.hobbies_topics{
+  display: flex;
+  margin: 1.5rem 0;
+  padding-left: 38%;
+  gap: 3rem;
+}
+
+footer {
+  background: var(--color-bg);
+  border-top: 1px solid var(--color-white);
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+
+footer .content {
+  max-width: 1250px;
+  margin: auto;
+  padding: 30px 40px;
+  display: flex;
+  gap: 40rem;
+  font-size: 1.2rem;
+}
