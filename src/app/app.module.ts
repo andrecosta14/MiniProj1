@@ -6,6 +6,7 @@ import { QuemSouEuComponent } from './quem-sou-eu/quem-sou-eu.component';
 import { OQueFacoComponent } from './oque-faco/oque-faco.component';
 import { HobbiesComponent } from './hobbies/hobbies.component';
 import { NavigationComponent } from './navigation/navigation.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { NavigationComponent } from './navigation/navigation.component';
     NavigationComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

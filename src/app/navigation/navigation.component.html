@@ -1,9 +1,8 @@
 <nav>
   <div class="iconBar">
-    <a href="#" (click)="setnavigation_active('#')" [ngClass]="navigation_active === '#' ? 'active' : ''"><i class="fa fa-home"></i></a>
-    <a href="#about" (click)="setnavigation_active('#about')" [ngClass]="navigation_active === '#about' ? 'active' : ''"><i class="fa-regular fa-user"></i></a>
-    <a href="#work" (click)="setnavigation_active('#work')" [ngClass]="navigation_active === '#work' ? 'active' : ''"><i class="fa-solid fa-briefcase"></i></a>
-    <a href="#hobbies" (click)="setnavigation_active('#hobbies')" [ngClass]="navigation_active === '#hobbies' ? 'active' : ''"><i class="fa-regular fa-face-smile"></i></a>
-    <a href="#footer" (click)="setnavigation_active('#footer')" [ngClass]="navigation_active === '#footer' ? 'active' : ''"><i class="fa-solid fa-phone"></i></a>
+    <a routerLink="" (click)="setnavigation_active('#')" [ngClass]="navigation_active === '#' ? 'active' : ''"><i class="fa fa-home"></i></a>
+    <a routerLink="aboutme" (click)="setnavigation_active('#about')" [ngClass]="navigation_active === '#about' ? 'active' : ''"><i class="fa-regular fa-user"></i></a>
+    <a routerLink="mywork" (click)="setnavigation_active('#work')" [ngClass]="navigation_active === '#work' ? 'active' : ''"><i class="fa-solid fa-briefcase"></i></a>
+    <a routerLink="hobbies" (click)="setnavigation_active('#hobbies')" [ngClass]="navigation_active === '#hobbies' ? 'active' : ''"><i class="fa-regular fa-face-smile"></i></a>
   </div>
 </nav>

@@ -48,6 +48,7 @@ body{
 
 .title {
   text-align: center;
+  margin-top: 20px;
   margin-bottom: 100px;
   padding: 1rem;
   background: var(--color-bg-variant);
@@ -86,6 +87,7 @@ body{
 
 .about_me {
   margin-left: 50px;
+  margin-bottom: 50px;
   padding: 2rem;
   background: var(--color-primary);
   border-radius: 5%;
